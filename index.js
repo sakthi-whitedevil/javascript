@@ -87,7 +87,11 @@ let b=22
         console.log(key);
     }
     //
+        let ano={
+            he:"gay",
+            age:33,
 
+        }
 
 
     // for(let key in object){
