@@ -54,44 +54,44 @@ let b=22
     // }
 
 
-    let amt=80000;
-    switch(true){
-        case(amt>=10000 && amt<60000):
-            console.log("Buy Android Mobile");
-        break;
-        case(amt>=60000):
-            console.log("Buy Iphone Mobile");
-        break;
-        case(amt=>5000 && amt<10000):
-            console.log("Buy Basic Mobiles");
-        break;
-        default:
-            console.log("You can't afford buy Mobile Phone");    
+    // let amt=80000;
+    // switch(true){
+    //     case(amt>=10000 && amt<60000):
+    //         console.log("Buy Android Mobile");
+    //     break;
+    //     case(amt>=60000):
+    //         console.log("Buy Iphone Mobile");
+    //     break;
+    //     case(amt=>5000 && amt<10000):
+    //         console.log("Buy Basic Mobiles");
+    //     break;
+    //     default:
+    //         console.log("You can't afford buy Mobile Phone");    
 
 
-    }
-    for(let i=100;i>=0;i--){
-        if(i%2==0){
-            console.log(`the even num ${i}`);
-        }
-    }
+    // }
+    // for(let i=100;i>=0;i--){
+    //     if(i%2==0){
+    //         console.log(`the even num ${i}`);
+    //     }
+    // }
 
-    let object={
-        name:"kunjumon",
-        athu:34,
-        ithu:"therla",
+    // let object={
+    //     name:"kunjumon",
+    //     athu:34,
+    //     ithu:"therla",
 
 
-    }
-    for(let key of object){
-        console.log(key);
-    }
-    //
-        let ano={
-            he:"gay",
-            age:33,
+    // }
+    // for(let key of object){
+    //     console.log(key);
+    // }
+    // //
+    //     let ano={
+    //         he:"gay",
+    //         age:33,
 
-        }
+    //     }
 
 
     // for(let key in object){
@@ -115,7 +115,35 @@ let b=22
     // console.log(person.native)
     // console.log(person.native.city)
 
-"sakthi is a best student our class which means his only in best "
+// let num=10;
+// let i=1;
+// do{
+//     if(i%2==0){
+//         console.log(i);
+//     }
+//     i++;
+// }while(i<=num);
+
+let people={
+    hename:"Tjsakthi",
+    age:12,
+    hobby:["cricket" ,"football","volleyball "],
+    wrk:{
+
+        location:"chennai",
+        company:"sortscript",
+    },
+    family:function(){
+        let msg=`hi this is ${this.hename} and he wrk for ${this.wrk.company}`;
+        console.log(msg);
+    }
+}
+console.log(people.family());
+
+
+
+
+
 
 
 
