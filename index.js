@@ -136,6 +136,7 @@ let people={
     family:function(){
         let msg=`hi this is ${this.hename} and he wrk for ${this.wrk.company}`;
         console.log(msg);
+        console.log(this.age);
     }
 }
 console.log(people.family());
