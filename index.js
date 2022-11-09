@@ -124,22 +124,51 @@ let b=22
 //     i++;
 // }while(i<=num);
 
-let people={
-    hename:"Tjsakthi",
-    age:12,
-    hobby:["cricket" ,"football","volleyball "],
-    wrk:{
+// let people={
+//     hename:"Tjsakthi",
+//     age:12,
+//     hobby:["cricket" ,"football","volleyball "],
+//     wrk:{
 
-        location:"chennai",
-        company:"sortscript",
-    },
-    family:function(){
-        let msg=`hi this is ${this.hename} and he wrk for ${this.wrk.company}`;
-        console.log(msg);
-        console.log(this.age);
+//         location:"chennai",
+//         company:"sortscript",
+//     },
+//     family:function(){
+//         let msg=`hi this is ${this.hename} and he wrk for ${this.wrk.company}`;
+//         console.log(msg);
+//         console.log(this.age);
+//     }
+// }
+
+function employee (emp,design,dept,pack,num) {
+
+    return{
+        name:emp,
+        designation:design,
+        department:dept,
+        salary:pack,
+        phoneNO:num,
+
+        members(){
+            let text=`
+            Employee Name ${this.name}
+            Employee designation ${this.designation}
+            Employee department ${this.department}
+            Employee salary ${this.salary}
+            Employee phoneNO ${this.phoneNO}`
+            console.log(text);
+        }
     }
+
+    
 }
-console.log(people.family());
+let aravind=employee("aravind","juniordeveloper","delevepment",100000,9876543210)
+let praveen=employee("pravven","seniordeveloper","delevepment",230000,9876543210)
+aravind.members();
+praveen.members();
+
+
+
 
 
 
