@@ -80,6 +80,7 @@ let b=22
     //     console.log("Good night😘");
     // }
 
+      d fknbebfjehbfhefbebjbf
 
     let amt=80000;
     switch(true){
