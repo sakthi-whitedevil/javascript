@@ -32,14 +32,7 @@
 
     let array=["element1","element2","element3"]
 
-    function vote(age){
-        if(age>18){
-            console.log("ur eligible for vote")
-        } else
-        {
-            console.log("ur not eligible vote ");
-        }
-    }
+    
 
    // vote(23)
 let a=10  
