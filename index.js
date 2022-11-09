@@ -1,22 +1,4 @@
 
-   /* let fname="sakthi";
-    let native="thanjavur";
-    let resident="palladam";
-    let degree="BSC COMPUTER SCEINCE";
-    let college="covai arts";
-    let cgpa=99.9;
-    let school="Boys higher secondry school";
-    let percentage=98;
-
-    console.log(`Myself ${fname}, i am hailing from ${native} local resident of ${resident}.
-    i have completed my ${degree} ug degree in ${college} with aggregation of ${cgpa} and
-     i did my schooling in ${school} with ${percentage} 
-                                            THANK YOU ❤❤❤`)
-
-    alert(`Myself ${fname}, i am hailing from ${native} local resident of ${resident}.
-    i have completed my ${degree} ug degree in ${college} with aggregation of ${cgpa} and
-     i did my schooling in ${school} with ${percentage} 
-                                            THANK YOU ❤❤❤`)*/
     let person=
     {
         fname:"sakthi",
@@ -32,16 +14,7 @@
 
     let array=["element1","element2","element3"]
 
-    function vote(age){
-        if(age>18){
-            console.log("ur eligible for vote")
-        } else
-        {
-            console.log("ur not eligible vote ");
-        }
-    }
 
-   // vote(23)
 let a=10  
 let b=22
  let c=5
