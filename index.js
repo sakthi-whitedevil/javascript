@@ -245,23 +245,28 @@ let object2={
 Object1={...object2}
  console.log(Object1);
 
+ 
 
 
 
+const arrai=[{
+
+    he:"whitedevil",
+    she:"koreangirl",
+
+},
+{
+    mom:"who is he",
+    dad:"who is she",
+}]
+
+let it=arrai.findIndex(function(arrai){
+
+return arrai.she="koreangirl"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+})
+console.log(it);
 
 
 
