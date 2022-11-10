@@ -167,6 +167,85 @@ let praveen=employee("pravven","seniordeveloper","delevepment",230000,9876543210
 aravind.members();
 praveen.members();
 
+//Constructor factory fumnction
+
+function CreatePerson(name){
+    this.name=name
+    this.welcome=function(){
+
+        let txt=`this is ${this.name}`
+        console.log(txt);
+
+    }
+
+
+}
+
+let newer=new CreatePerson("sakthi");
+newer.welcome();
+
+let nname="String";
+let num=34;
+let Boolean2=true;
+console.log(nname,num,Boolean2);
+
+let nname1=new String("sakthi");
+let num1=new Number(23);
+let Boolean1= new Boolean(true);
+console.log(nname1,num1,Boolean1);
+
+
+let object={
+    he:"whitedevil",
+
+    hack :function(){
+        console.log(`u hacked by${this.he}`);
+    }
+}  
+
+for(civil in object){
+    console.log(civil);
+}
+
+
+let obj=Object.keys(object)
+for(civil of obj){
+
+    console.log(civil);
+}
+
+
+//Object Cloning
+
+
+let Object1={
+
+    // gender1:"male",
+    // sex1:"male",
+    // city:"chennai"
+
+}
+
+let object2={
+    gender:"female",
+    sex:"female",
+
+    detail(){
+        let dd=`she is ${this.sex}`;
+        console.log(dd);
+    }
+    
+}
+
+ 
+// for(let dt in object2 ){
+//       Object1[dt]=object2[dt]
+    
+//  }
+Object1={...object2}
+ console.log(Object1);
+
+
 
 
 
