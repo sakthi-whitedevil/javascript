@@ -260,12 +260,8 @@ const arrai=[{
     dad:"who is she",
 }]
 
-let it=arrai.findIndex(function(arrai){
+let it=arrai.find((arrai)=>arrai.she==="koreangirl")
 
-return arrai.she="koreangirl"
-
-
-})
 console.log(it);
 
 
