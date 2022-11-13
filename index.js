@@ -271,7 +271,14 @@ const bag=["book","note","pen"]
 const stew=[{he:"sakthi",age:23}]
 let accessory=fruit.concat(bag,stew)
 //let accessory=[...fruit,...bag,56,stew]
-console.log(accessory);
+// console.log(accessory);
+
+accessory.forEach((variable) => {
+   // console.log(variable);
+    console.log(variable);
+});
+
+
 
 
 
