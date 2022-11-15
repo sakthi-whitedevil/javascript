@@ -14,6 +14,23 @@
 
     let array=["element1","element2","element3"]
 
+    const students={
+            first_name:"sriram",
+            last_name:"singam",
+            age:24,
+            class:"12 th",
+            gender:"male",
+
+            sports:{
+
+                array:["cricket","volleyball","tennis"]
+
+            }
+        }
+       // console.log(students);
+        
+        
+
 
 let a=10  
 let b=22
@@ -32,7 +49,28 @@ let b=22
 
      //func(18)
      let array1=[12,23,33,44,55,"sakthi"]
-        
+
+     const array2=["var","let","const",143]
+
+     let keys=console.log([...array2,array1]);
+       // console.log(keys);
+
+     function greeting(){
+
+        let op={
+            
+            iam:"single",
+            bt:"she makes me couple",
+            andthen:"she is also make me again single",
+            she:"she was go her new couple",
+        }
+        console.log(op);
+
+     }
+    //  greeting()
+     let age=17
+     let type=age>18 ? "Adults Ticket" : "childrens ticket"
+     console.log(type);
 
     // console.log(array1)
 
@@ -76,6 +114,89 @@ let b=22
     //     }
     // }
 
+
+    //  let i=0
+
+    //  while(i<=10){
+
+    //      if(i%2 !==0){
+    //          console.log(i);
+    //      }
+    //      i++
+    //  }
+
+    //  do{
+    //     if(i%2 !==0){
+    //         console.log(i);
+    //     }
+    //     i++
+
+    //  }while(i<=10);
+
+    //  const tik={
+    //     do:"read daily",
+    //     dontdo:"sleep whole day",
+    //     dodo:"do exercise"
+
+    //  }
+
+    //  for(let key in tik){
+    //     console.log(key+" :" +tik[key]);
+
+    //  }
+
+    // const arrayname=[1,2,3,4,5,6,7,8,9]
+
+    // for(let key of arrayname){
+    // console.log(key +":"+arrayname[key]);
+
+    // }
+
+    // const demo={
+    //     he:"sakthi",
+    //     she:"nairobi",
+    //     loving:function(){
+    //         let life=`${this.he} and ${this.she} is make for eachother ❤❤❤`
+    //         console.log(life);
+    //     }
+    // }
+    // demo.loving();
+
+    // function createpers(dnme){
+
+    //    return{
+
+    //     dnme,
+    //     greeting(){
+    //         let msgg=`${this.dnme} is TL in this company`
+    //         console.log(msgg);
+    //     }
+
+    //    }
+
+
+    // }
+
+    // let sakthi=createpers("sakthi")
+    // sakthi.greeting();
+    // let nairobi=createpers("naorobi")
+    // nairobi.greeting();
+    
+
+
+
+
+
+    function Welcome(dd){
+        this.dd=dd
+        this.greet=function(){
+
+            let md=`the hero is ${this.dd}`
+            console.log(md);
+        }
+    }
+    let relative= new Welcome("sakthi");
+    relative.greet();
     // let object={
     //     name:"kunjumon",
     //     athu:34,
@@ -243,7 +364,7 @@ let object2={
     
 //  }
 Object1={...object2}
- console.log(Object1);
+ //console.log(Object1);
 
  
 
@@ -262,7 +383,7 @@ const arrai=[{
 
 let it=arrai.find((arrai)=>arrai.she==="koreangirl")
 
-console.log(it);
+//console.log(it);
 
 
 
@@ -275,9 +396,113 @@ let accessory=fruit.concat(bag,stew)
 
 accessory.forEach((variable) => {
    // console.log(variable);
-    console.log(variable);
+  //  console.log(variable);
 });
+//primitive values
 
+//every function
+//  const list_of_age=["1","2","3","4","5","6","7"];
+//  let var1=list_of_age.some(function(value){
+//  return value %2== 0;
+//  });
+// let vari=list_of_age.forEach(function(data){
+//     console.log(data);
+// })
+
+// console.log(vari);
+
+
+//some()function
+// const list_of_age=["13","12","14"];
+// let var1=list_of_age.some(function(value){
+// return value >= 18;
+// });
+// console.log(var1);
+
+//filtering objects in array
+
+// const stude=[
+//     {id:1,student:"sakthi",grade:false},
+//     {id:2,student:"venkat",grade:false},
+//     {id:3,student:"surya",grade:false}
+
+// ];
+// let stu=stude.some(function(value){
+
+// return value.grade==true;
+
+// });
+// console.log(stu);
+// let objec = stude.forEach(function(data){
+//     console.log(data);
+//     // console.log(data.student);
+//     // console.log(data.grade);
+// })
+
+// console.log(objec);
+
+
+const cart_items=[
+    {id:1,items:"chinese",cost:9000},
+    {id:2,items:"iphone",cost:20000},
+    {id:3,items:"piphone",cost:30000},
+    {id:4,items:"android",cost:10000},
+    {id:5,items:"android",cost:13000},
+    {id:6,items:"android",cost:12500}
+
+];
+//filter
+// let cart=cart_items.filter((val)=>val.cost >8000 && val.cost < 15000)
+// console.log(`cart items:`,cart);
+
+// let item=cart.forEach(function(dat){
+//     console.log(dat.items=="android");
+//     // console.log(dat.items);
+//     // console.log(dat.cost);
+
+// })
+// console.log(item);
+
+//find function
+
+// let cart=cart_items.find((val)=>val.cost >8000 && val.cost < 15000)
+// console.log(`cart items:`,cart);
+
+// let item=cart.forEach(function(dat){
+//     console.log(dat.items=="android");
+//     // console.log(dat.items);
+//     // console.log(dat.cost);
+
+// })
+// console.log(item);
+
+
+// const Even=[1,2,3,4,5,6,7,8,9,10];
+
+// let prieve=Even.filter((val)=>val % 2 ==0)
+// //console.log(prieve);
+// let evi=prieve.forEach(function(val){
+ 
+//  console.log(val);
+
+// })
+// console.log(evi);
+
+
+
+const demons=[
+    {id:1,first_name:"demon",last_name:"kane"},
+    {id:2,first_name:"death",last_name:"undertaker"},
+    {id:3,first_name:"john",last_name:"cena"}
+
+];
+
+let ss=demons.map(function(val){
+let fullname=[val.first_name, val.last_name].join(" ");
+let ob={id:val.id,fullname};
+console.log(ob);
+
+});
 
 
 
