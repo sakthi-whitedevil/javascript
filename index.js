@@ -490,21 +490,41 @@ const cart_items=[
 
 
 
-const demons=[
+// const demons=[
+//     {id:1,first_name:"demon",last_name:"kane"},
+//     {id:2,first_name:"death",last_name:"undertaker"},
+//     {id:3,first_name:"john",last_name:"cena"}
+
+// ];
+
+// let ss=demons.map(function(val){
+// let fullname=[val.first_name, val.last_name].join(" ");
+// let ob={id:val.id,fullname};
+// console.log(ob);
+
+// });
+
+
+//sort()function
+
+const swiggy=[
     {id:1,first_name:"demon",last_name:"kane"},
     {id:2,first_name:"death",last_name:"undertaker"},
     {id:3,first_name:"john",last_name:"cena"}
+]
 
-];
+let func1=swiggy.sort(function(a,b){
+     if(a.first_name < b.first_name) return -1;
 
-let ss=demons.map(function(val){
-let fullname=[val.first_name, val.last_name].join(" ");
-let ob={id:val.id,fullname};
-console.log(ob);
+     if(a.first_name > b.first_name) return 1;
+      
+     return 0;
 
 });
 
 
+
+console.log(func1);
 
 
 
