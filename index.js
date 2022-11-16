@@ -507,25 +507,138 @@ const cart_items=[
 
 //sort()function
 
-const swiggy=[
-    {id:1,first_name:"demon",last_name:"kane"},
-    {id:2,first_name:"death",last_name:"undertaker"},
-    {id:3,first_name:"john",last_name:"cena"}
-]
+// const swiggy=[
+//     {id:1,first_name:"demon",last_name:"kane"},
+//     {id:2,first_name:"death",last_name:"undertaker"},
+//     {id:3,first_name:"john",last_name:"cena"}
+// ]
 
-let func1=swiggy.sort(function(a,b){
-     if(a.first_name < b.first_name) return -1;
+// let func1=swiggy.sort(function(a,b){
+//      if(a.first_name < b.first_name) return -1;
 
-     if(a.first_name > b.first_name) return 1;
+//      if(a.first_name > b.first_name) return 1;
       
-     return 0;
+//      return 0;
 
-});
+// });
+
+// console.log(func1);
+
+//reduce()
+// const numb=[12,34,55,67,99];
+// let result=numb.reduce(function(a,b){
+//     console.log(a);
+//     console.log(b);
+//     return a+b;
+
+// });
+// console.log(result);
+
+//shopping cart by reduce()
+
+const shopping_cart=[
+    {id:1,item:"cricketBat",cost:1200},
+    {id:2,item:"one pack ball",cost:600},
+    {id:3,item:"2 pairs stemp",cost:990}
+];
+
+let total=shopping_cart.reduceRight(function(a,b){
+    return a+b.cost;
+    },10);
+
+    //console.log(  `total amount is`,total);
 
 
 
-console.log(func1);
+    //function declaration
+    // const no1=2345;
+    // const no2=4566;
+    // function addition(){
+    //     let result=no1+no2;
+    //     console.log(result);   
 
+    // }
+    // addition();
+
+    //function Expression
+    // const no1=2345;
+    // const no2=4566;
+    // let addition=function (){
+    //     let result=no1+no2;
+    //     console.log(result);   
+
+    // }
+    // addition();
+
+    //anonymous function
+    // const no1=2345;
+    // const no2=4566;
+    // let addition=( ) =>{
+    //     let result=no1+no2;
+    //     console.log(result);   
+
+    // }
+    // addition();
+
+
+    //constructor function
+    // let no1=2345;
+    // let no2=4566;
+    // let constru= new Function("console.log(no1+no2)");
+    // constru();
+
+    //hoisting method
+    // const no1=2345;
+    // const no2=4566;
+
+
+    // addition()
+
+    // function addition(){
+    //     let result=no1+no2;
+    //     console.log(result);   
+
+    // };
+
+    //hoisting method
+
+
+
+    // let addition= function (){ 
+    //     let result=no1+no2;
+    //     console.log(result);
+
+    // };
+    // console.log(addition());
+    
+    //defualt parameter 
+ 
+    //getter setter
+
+
+    let member={
+
+        ffname:"venki",
+        llname:"anonymous",
+        get fullname(){
+       
+            return `FullName:${member.ffname} ${member.llname}`;
+        },
+       set fullname(value){
+        let result=value.split(" ");
+        this.ffname=result[0];
+        this.llname=result[1];
+       
+        }
+
+}                                                                                                     
+console.log(member.fullname);
+member.fullname="tj sakthi";
+console.log(member.fullname);
+
+          
+   
+   
 
 
 
