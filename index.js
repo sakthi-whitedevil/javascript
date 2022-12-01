@@ -551,14 +551,21 @@ let total=shopping_cart.reduceRight(function(a,b){
 
 
     //function declaration
-    // const no1=2345;
-    // const no2=4566;
-    // function addition(){
+    //  const no1=2345;
+    //  const no2=4566;
+    //  function addition(no1,no2){
+    //     if(typeof(no2)!="number"){
+    //         throw "its not a number pls valid a number"
+    //     }
     //     let result=no1+no2;
     //     console.log(result);   
-
     // }
-    // addition();
+
+    // try {
+    //     addition(10,"a");
+    // } catch (error) {
+    //     alert(error)
+    // }
 
     //function Expression
     // const no1=2345;
@@ -616,37 +623,367 @@ let total=shopping_cart.reduceRight(function(a,b){
     //getter setter
 
 
-    let member={
+    // let member={
 
-        ffname:"venki",
-        llname:"anonymous",
-        get fullname(){
+    //     ffname:"venki",
+    //     llname:"anonymous",
+    //     get fullname(){
        
-            return `FullName:${member.ffname} ${member.llname}`;
-        },
-       set fullname(value){
-        let result=value.split(" ");
-        this.ffname=result[0];
-        this.llname=result[1];
+    //         return `FullName:${member.ffname} ${member.llname}`;
+    //     }
+    //    set fullname(value){
+    //     let result=value.split(" ");
+//     //     this.ffname=result[0];
+//     //     this.llname=result[1];
+        
+// //         }
+
+// // }                                                                                                     
+// // console.log(member.fullname);
+// // member.fullname="tj sakthi";
+// // console.log(member.fullname));
+
+// //this keyword
+
+// const chennal={
+//     title:"scrunches",
+//     subscribe(){
+
+//     }
+// }
+
+
+// function data(){
+//     let name="venkat";
+    
+//     for(i=1;i<=10;i++){
+//         console.log(`${name}:${i}`);
+//     }
+    
+//     for(let j=1;j<=10;j--){
+//         let name="Ano";
+//         console.log(`${name}:${i}`);
+//     }
+// }
+
+// //practice of javacript
+
+
+// // let college={
+// //     collegeName:"covaiArts",
+// //     rank:"tenth",
+// //     loaction:"coimbatore",
+// //     pincode:"123566
+
+
+// // // }
+
+// // //console.log(college.rank.toUpperCase());
+
+// // // for(key of Object.entries(college)){
+// // //    // let vara=key.toString().toUpperCase();
+// // //     console.log(key[1].toString().toUpperCase());
+
+// // // }
+
+// // let he={
+// //     name:"sakthi",
+// //     age:"12",
+// //     qualification:"BSC COMPUTER SCIENCE",
+// //     Batch:2021,
+    
+
+// // }
+// // let studo =`this is ${he.name} his age is ${he.age} he studing in ${he.qualification} on ${he.Batch}`
+// // // console.log(studo);
+// // // console.log(studo.slice(45));
+// // // console.log(studo.slice(0,15));
+// // // console.log(studo.slice(-21));
+
+
+// // const arr=["tj",1,"venki",2,"surya"];
+
+// // function check(val){
+// //     let dt=arr.includes(val);
+// //     if(dt==true){
+// //         console.log(arr.indexOf(val));
+// //     }else{
+// //         console.log("data is missing");
+// //     }
+ 
+// // }
+// // //check(3)
+
+// // function dec(d1,d2){
+// //    return{ 
+// //         one:d1,
+// //         two:d2,
+
+// //         farr(){
+// //            let  vv=`${this.two} as ${this.one}`;
+// //            console.log(vv);
+// //         }
+    
+   
+// //     }
+  
+
+// // }
+// // let ex=dec("tj", "sakthi");
+// // //ex.farr()
+
+// // //constructor function
+
+// // function user(val1,val2){
+// //     this.fname=val1;
+// //     this.pass=val2;
+// //     this.welcome=function(){
+// //         let ver=`${this.fname} ${this.pass}`;
+// //         console.log(ver);
+// //     }
+// // }
+
+// // let arrs=new user("sakthi",123356);
+// // arrs.welcome()
+
+
+// // // function loop(n){
+    
+// // //     for(let i=0;i<n;i++){
+        
+// // //         console.log(" * ");
+// // // }
+// // // console.log("\n");
+
+// // // }
+
+// // // loop(5);
+// // //legend loop
+// // let string="";
+// // for(let i=0;i<=5;i++){
+   
+// //     console.log(string+="*");
+     
+   
+// // }
+
+// // for(let i=1;i<=10;i++){
+// //     for(let k=1;k<=(10-i);k++){
+// //         document.write("&nbsp &nbsp &nbsp&nbsp&nbsp    ");
+// //     }
+// //     for(let j=1;j<=i;j++){
+// //         document.write("* ");
+// //     }
+// //     document.write("<br/>");
+// // }
+
+// // function looping(n){
+
+
+// //     for(let i=n;i>=1;i--){
+// //         for(let k=1;k<=(n-i);k++){
+// //             document.write("&nbsp");
+// //         }
+      
+// //         for(let j=1;j<=i;j++){
+// //             document.write("* ");
+// //         }
+// //         document.write("<br/>");
+// //     }
+    
+// // }
+// looping(10);
+//****************************************************************************************************************** */
+                                                //DOM PRACTICE            
+/* ***************************************************************************************************************** */
+// const doods={
+//     do1:"stupid",
+//     do2:"fellow",
+
+//     merch(val){
+//         let join=`sakthi ${val} ${this.do1} ${this.do2}`;
+//         console.log(join);
+//     }
+// }
+
+// let another={...doods};
+// another.merch("is")
+
+let art=[1,2,3,4,5,6,7,8];
+
+// art.forEach(function(value){
+//     console.log(value);
+// });
+
+ art=[];
+//console.log(art);
+//console.log(window.screen.height);
+
+function sizing(){
+ console.log(   screen.width);
+    if(
+        screen.width>=1000){
+        confirm("pls reduce the screen size"); 
+       }
+     
+}
+//sizing();
+
+//console.log(window.location );
+
+// setInterval(() => {
+
+//  document.title="yeah, i hav change my title"
+// }, 5000);
+
+//console.log(window.navigator);
+
+
+//object for dom
+
+// const terry={
+//     person1:"anonymous",
+//     city1:"chennai",
+//      wel(){
+//         return `the person is ${this.person1} living in ${this.city1}`;
+        
+//      },
+// }
+// let inputname=prompt("what is your name ?");
+// let inputcity=prompt("where are you coming from ?");
+
+// terry.person1=inputname;
+// terry.city1=inputcity;
+//document.write(run);
+
+//document.body.innerHTML=`<h1>${run}</h1>`;
+//document.write(terry.wel());
+
+
+
+// document.addEventListener('DOMContentLoaded',()=>{
+//     const myapp=document.getElementById("app");
+//     myapp.innerHTML='<h1>this is Tj wats</h1>'
+//     console.log(myapp);
+// })
+
+// console.log(document.body.nodeType);
+// console.log(document.body.clientHeight);
+
+// let getEl=document.getElementById("heading");
+// getEl.innerText="hello this is another tj watts😎";
+// console.log( getEl.innerText);
+
+// let infood=document.getElementById('input-food');
+// let inbutt=document.getElementById('input-but');
+// let respon=document.getElementById('response');
+// inbutt.addEventListener('click',()=>{
+//     respon.innerText=infood.value
+// });
+
+
+
+// let infood=document.getElementById('input-food');
+// let inbutt=document.getElementById('input-but');
+// let respon=document.getElementById('food-container');
+
+
+// inbutt.addEventListener('click',()=>{
+//     // respon.innerHTML +=`<li class="food-item">${infood.value}</li>`
+//     const lis=document.createElement("li");
+//     const textnode=document.createTextNode(infood.value);
+
+//     //assigning a classname
+//    lis.className="food-item";
+
+//     lis.append(textnode);
+
+//     respon.append(lis);
+
+// });
+
+//getElementsByClassName
+
+        let foodItems=document.getElementsByClassName('food-item');
+
+        let allfoods=[].map.call(foodItems,(food)=>food.textContent);
+        console.log(allfoods);
+
+
+//querySelector and querySelectorall()
+
+
+// const ini=document.querySelector("li");
+
+// const init=document.querySelectorAll("li");
+// console.log(init[0].innertext);
+
+//creating dom elements using javascript
+
+
+//
+// function addelement(message){
+
+
+// const main=document.getElementById("main");
+
+// //creating div elements
+// const div= document.createElement("div");
+// const textnode=document.createTextNode(message)
+
+// //assigning classname
+// div.className="alert";
+
+// // div.innerText="food is ready to eat";
+
+// div.append(textnode);
+
+
+// main.prepend(div);
+// };
+
+
+// addelement("✅successfuly updated!");
+
+//another creating dom element 
+
+
+let infood=document.getElementById('input-food');
+let inbutt=document.getElementById('input-but');
+let respon=document.getElementById('food-container');
+let query = document.querySelector(".food-container .food-item1")
+console.log(`Query : ${query.innerText}`);
+// values a insert panna
+//respon.before()
+//respon.after()
+//respon.insertAdjusentHtml("afterbegin","hello")
+//respon.insertAdjusentHtml("afterend","hello")
+//respon.insertAdjusentHtml("beforebegin","hello")
+//respon.insertAdjusentHtml("beforeend","hello")
+
+
+inbutt.addEventListener("click",()=>{
+
+       respon.innerHTML +=`<li class="food-item">${infood.value}</li>`
        
-        }
+        //   let lis=document.createElement('li');
 
-}                                                                                                     
-console.log(member.fullname);
-member.fullname="tj sakthi";
-console.log(member.fullname);
+        //   let textno=document.createTextNode(infood.value);
 
-          
-   
-   
+        //     lis.className('food-item');
 
+        //     lis.append(textno);
 
+        //     respon.append(lis);
+});
 
 
 
 
+let tt=document.createDoucmentFragment();
+console.log("hello world");
 
-
+//
 
 
 

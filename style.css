@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    background-color: white;
+}
+
+
+header{
+color:black;
+background-color: aqua;
+text-align: center;
+height: 50px;
+padding-top: 12px;
+font-size:20px ;
+
+
+}
+
+main{
+    text-align: center;
+    margin:15px;
+    /* background-color: aliceblue; */
+    padding: 20px;
+    
+}
+
+main>div>h1{
+    font-size: 18px;
+}
+
+main>div>p{
+    font-size: 14px;
+}
+
+
+
+
+.input-food{
+    outline: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+   width: 500px;
+   
+   }
+
+
+.input-button{
+
+    outline: none;
+    padding: 6px 10px;
+    border-radius:   5px;
+    border: none;
+    background-color: aqua;
+    color: black;
+}
+
+.input-button:hover{
+background-color: chartreuse;
+}
+
+.food-container{
+    padding: 5px 10px;
+        margin: 20px 0;
+        /* background-color: #fff;  */
+        list-style: none;
+        width: 500px;
+        margin-left: 360px;      
+        
+        
+      
+
+
+    
+}
+
+.food-container .food-item{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid lightslategray; 
+    margin: 10px 0;
+    color:indigo;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: left;
+    
+    
+}
+
+.food-container .food-item:hover{
+
+    background-color: rgb(79, 123, 255);
+    color: #fff;
+}
+
+.alert{
+    /* background-image: url("/image1.jpeg"); */
+   padding: 10px;
+   background-color: green;
+   text-align: left;
+   border-radius: 5px;
+   margin: 10px 0;
+   color: #fff;
+   border-left: 5px solid darkgreen;
+ 
+   
+}
